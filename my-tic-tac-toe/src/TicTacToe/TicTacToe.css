@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+table {
+    border-collapse: collapse;
+  }
+table td{
+   
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+    padding: 0px;
+    background-color: pink;
+    font-size: 55px;
+    color: black;
+    font-weight: bold;
+    font-family:sans-serif;
+}
+button{
+    margin-top: 20px;
+    width: 240px;
+   background-color: white;
+   color: black;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+input{
+    width: 200px;
+    height: 30px;
+    margin: 10px;
+}
+button:hover{
+    background-color: rgb(41, 35, 35);
+    color: rgb(241, 199, 199);
+}
+p{
+    font-size: 20px;
+    color: black;
+    font-weight: light;
+}
+
+.winner{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold; 
+    color:green 
+}
